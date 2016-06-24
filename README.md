@@ -1,21 +1,35 @@
 # useR2016-tutorial-jupyter
 
-Resources for useR! 2016 Reproducible Research tutorial @ Stanford
+Resources for the UseR!2016 tutorial using Jupyter Notebooks
 
-## Convert notebook to slides and send to browser (Cmd line)
-On the command line (this will convert to slides and open a brower window to serve them up!):
+## Converting notebooks to other formats
 
->  `jupyter nbconvert "How to create a Jupyter presentation.ipynb" --to slides --post serve`
+You can use the command line (e.g. bash) to convert notebooks to various formats
 
-## More conversions of notebooks (Cmd line)
 
-**to pdf (converts to latex first)**
+1. to slides and send to browser
 
-  `jupyter nbconvert "notebookname.ipynb" --to pdf`
+    - this will convert to slides and open a brower window to serve them up!
+
+        ```
+        jupyter nbconvert "How to create a Jupyter presentation.ipynb" --to slides --post serve
+        ```
+
+2. to pdf
+
+    - This requires that you install LaTEX on your system
   
-**to latex (in case to pdf does not work and you need to fiddle)**
+        ```
+        jupyter nbconvert "notebookname.ipynb" --to pdf`
+        ```
+  
+3. to latex
 
-  `jupyter nbconvert "notebookname.ipynb" --to latex`
+    - Use this in case to pdf does not work and you need to fiddle with the LaTEX (yuck)
+
+        ```
+        jupyter nbconvert "notebookname.ipynb" --to latex`
+        ```
   
 
 
