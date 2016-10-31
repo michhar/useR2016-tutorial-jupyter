@@ -1,4 +1,5 @@
-# Resources for the UseR!2016 tutorial using Jupyter Notebooks in Reproducible Research
+# R Tutorial using Jupyter Notebooks for Reproducible Research
+* The story revolves around image processing in R
 
 ## General outline
 
